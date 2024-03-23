@@ -1,0 +1,39 @@
+[
+    {
+        "id":0,
+        "name": "TripBlog Website",
+        "imgSrc": "/images/yellow.avif",
+        "href": "https://trip-blog-website-vijay-md.netlify.app/",
+        "discription":"Developed a dynamic and interactive Trip Blog Website using React.js, taking advantage of its componentbased architecture and efficient rendering to create a seamless user experience. Implemented a responsive design approach, ensuring that the website is optimized for various screen sizes and devices, providing an optimal viewing experience on both mobile and PC screens. Leveraged React's component reusability to create modular UI components, making the codebase more organized, maintainable, and allowing for easier extension of the website's features. Git Link: https://github.com/Vijaymd0007/tripblog Live site: https://trip-blog-website-vijay-md.netlify.app/"
+    },
+    { "id":1,
+        "name": "Weather App",
+        "imgSrc": "/images/yellow.avif",
+        "href": "https://weather-app-md.netlify.app/",
+        "discription":"Developed a real-time weather application using technologies such as React.js and external APIs. Created an intuitive and visually appealing user interface to display weather information to users. Integrated with external weather APIs 'OpenWeatherMap' to fetch real-time weather data. Leveraged API endpoints to retrieve data like current conditions, forecasts, and location-based information. Incorporated geolocation services to automatically determine the user's location and provide local weather details. Implemented user input features, allowing users to search for weather information in different cities or locations. Git Link: https://github.com/Vijaymd0007/weather-app Live site: https://weather-app-md.netlify.app/"
+    },
+    { "id":2,
+        "name": "Resume Generator",
+        "imgSrc": "/images/yellow.avif",
+        "href": "https://trip-blog-website-vijay-md.netlify.app/",
+        "discription":"Built a Resume generator website with HTML, CSS, JavaScript, and ReactJS. Utilized React components and state management to build a dynamic and interactive user experience. Enhanced the user experience by incorporating a drag-and-drop interface, allowing users to rearrange sections or elements within the resume templates effortlessly. Added functionality to export the generated resume as a downloadable PDF document using react library react-to-print. Git Link: https://github.com/Vijaymd0007/Resume-generator Live site: https://resume-generator-vijaymd.netlify.app/"
+    },
+    { "id":3,
+        "name": "Chat Box",
+        "imgSrc": "/images/yellow.avif",
+        "href": "https://chat-box-md.netlify.app/",
+        "discription":"Developed a real-time chat application using React.js, Node.js (Express.js), MongoDB, and Socket.io. Enabled users to register, log in, and engage in real-time messaging within chat rooms. Utilized MongoDB for data storage, allowing seamless persistence of chat messages and user information. Utilized React.js to create a dynamic and interactive user interface, benefiting from its component-based architecture for efficient rendering. Git Link: https://github.com/Vijaymd0007/chat-box"
+    },
+    { "id":4,
+        "name": "Cinema Info",
+        "imgSrc": "/images/yellow.avif",
+        "href": "https://cinema-info-md.netlify.app/",
+        "discription":"This is a real time films search application built using React.js and external API. Implemented serch bar which returns all the films which are available by that name. And can see the perticular information about that film. Used API to get all the data about the movies. Used media querries to make website responsive. Used react hooks to manage the state of the component. Git link: https://github.com/Vijaymd0007/cinema-info/ Live site: https://cinema-info-md.netlify.app/"
+    },
+    { "id":5,
+        "name": "Calculator",
+        "imgSrc": "/images/yellow.avif",
+        "href": "https://vijaymd0007.github.io/calculator/",
+        "discription":"This is a real time films search application built using React.js and external API. Implemented serch bar which returns all the films which are available by that name. And can see the perticular information about that film. Used API to get all the data about the movies. Used media querries to make website responsive. Used react hooks to manage the state of the component. Git link: https://github.com/Vijaymd0007/cinema-info/ Live site: https://cinema-info-md.netlify.app/"
+    }
+]

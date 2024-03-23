@@ -1,0 +1,24 @@
+.exp-header {
+    text-align: center;
+}
+
+.exp-container {
+    position: relative;
+}
+
+.line {
+    height: 600px;
+    width: 10px;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    border: 1px solid black;
+    background-color: black;
+
+}
+
+.wrapper {
+    margin-left: 70px;
+    margin-top: 70px;
+
+}
