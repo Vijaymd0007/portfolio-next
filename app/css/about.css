@@ -32,12 +32,28 @@
 
 @media only screen and (max-width:500px) {
     .about-container {
-        width: 100%;
-        position: absolute;
-        top: 100vh;
-        right: 0px;
+        width: 166%;
+        position: static;
         background-color: black;
         color: #6c757d;
         height: 100vh;
+        font: 24px;
+    }
+
+    .about-fields {
+        width: 0px;
+        border-bottom: 1px solid #6c757d;
+        width: 400px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        font-size: 26px;
+    }
+
+    .about-header {
+        font-size: 60px;
+        padding-left: 30%;
+        padding-top: 50px;
+        margin-top: 0px;
+        color: #ffd100;
     }
 }
