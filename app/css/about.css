@@ -32,7 +32,7 @@
 
 @media only screen and (max-width:500px) {
     .about-container {
-        width: 100vw;
+        width: 100%;
         position: absolute;
         top: 100vh;
         right: 0px;

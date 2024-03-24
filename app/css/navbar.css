@@ -7,6 +7,7 @@
     background-color: black;
     color: aliceblue;
     font-size: 16px;
+    z-index: 99999;
 }
 
 .navlist-container {
@@ -30,10 +31,59 @@
     color: #ffd100;
 }
 
+.menu-btn {
+    display: none;
+}
+
 @media only screen and (max-width:500px) {
     .nav-container {
+        position: fixed;
+        top: 0px;
+        left: 0px;
         width: 100%;
-        height: 60px;
-        z-index: 99;
+        height: 700px;
+        background-color: black;
+        color: aliceblue;
+        font-size: 30px;
+    }
+
+    .menu-btn {
+        display: block;
+
+    }
+
+    .menu-btn svg {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .hideMenu-container {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        color: aliceblue;
+        font-size: 16px;
+    }
+
+    .navlist-container {
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 0px;
+    }
+
+    .hideMenu {
+        display: none;
+    }
+
+    .navlist {
+        width: 100%;
+        padding-bottom: 15px;
+        padding-top: 15px;
     }
 }
