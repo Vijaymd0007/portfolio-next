@@ -6,7 +6,7 @@ export default function Skills() {
 
 
     return (
-        <div className="skills-container">
+        <div className="skills-container" id="skills-container">
             <h2 className="skills-header">Technologies I can work on </h2>
             <h6 className="skills-description">As a MERN stack developer, I specialize in crafting full-stack web applications using MongoDB, Express.js, React, and Node.js. With expertise in both frontend and backend technologies, I seamlessly integrate user interfaces with server-side functionalities to deliver dynamic and engaging digital experiences. Leveraging my proficiency in JavaScript and its associated frameworks</h6>
             <div className="skills-img-container  ">

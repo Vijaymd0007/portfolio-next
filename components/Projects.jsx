@@ -11,7 +11,7 @@ const Projects = () => {
     }
     return (
 
-        <div className='pro-container'>
+        <div className='pro-container' id="pro-container">
             <h2 className='pro-header'>Personal Project I have worked on </h2>
             < div key={projectDetails[0].id} className='card-container row '>
                 <div className='img-container col-lg-6 col-sm-12'>

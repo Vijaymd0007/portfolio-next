@@ -1,18 +1,22 @@
 import React from 'react'
+import "@/app/css/about.css"
 
 const About = () => {
     return (
-        <>
-            <h1>ABOUT</h1>
-            <div className='about-fields'>
-                <p>Name: Vijay M D</p>
-                <p>Email: vijay0007@gmail.com</p>
-                <p>Phone: +91 9980123984</p>
-                <p>Date of Birth: 17 February 2001</p>
-                <p>Address: Hassan, Karnataka</p>
-                <p>Nationality: Indian</p>
+        <div className="about-container" id="about-container">
+
+            <h1 className='about-header'>About</h1>
+            <div className='about-field-container'>
+                <p className='about-fields'>Name: Vijay M D</p>
+                <p className='about-fields' >Email:<span style={{ color: "#ffd100" }}>vijay0007@gmail.com</span> </p>
+                <p className='about-fields'>Phone: +91 9980123984</p>
+                <p className='about-fields'>Date of Birth: 17 February 2001</p>
+                <p className='about-fields'>Address: Hassan, Karnataka</p>
+                <p className='about-fields'>Nationality: Indian</p>
             </div>
-        </>
+        </div>
+
+
     )
 }
 

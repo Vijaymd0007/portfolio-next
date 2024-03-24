@@ -1,0 +1,22 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50%;
+    background-color: black;
+    color: white;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container #message {
+    width: 300px;
+    height: 80px;
+}
+
+.contact-btn {
+    width: 200px;
+    height: 40px;
+}

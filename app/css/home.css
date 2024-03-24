@@ -1,0 +1,32 @@
+.home-text-container {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    color: #ffd100;
+    z-index: 88;
+}
+
+.viji {
+    width: 620px;
+    height: 100vh;
+    mix-blend-mode: multiply;
+    margin-left: 250px;
+    filter: brightness(0.5);
+
+}
+
+
+@media only screen and (max-width:500px) {
+
+
+    .home-text-container {
+        left: 0px;
+    }
+
+    .viji {
+        width: 620px;
+        height: 100vh;
+        margin-left: 0px;
+
+    }
+}

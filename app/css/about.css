@@ -1,0 +1,43 @@
+.about-container {
+    width: 43%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: black;
+    color: #6c757d;
+    height: 100vh;
+}
+
+.about-fields {
+    border-bottom: 1px solid #6c757d;
+    width: 450px;
+    border-bottom: 1px solid #6c757d;
+    width: 260px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+
+.about-field-container {
+    margin-left: 20%;
+    margin-top: 14%;
+}
+
+.about-header {
+    padding-left: 20%;
+    margin-top: 50px;
+    color: #ffd100;
+}
+
+@media only screen and (max-width:500px) {
+    .about-container {
+        width: 100vw;
+        position: absolute;
+        top: 100vh;
+        right: 0px;
+        background-color: black;
+        color: #6c757d;
+        height: 100vh;
+    }
+}
